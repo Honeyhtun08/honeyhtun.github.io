@@ -17,26 +17,7 @@ body {
 }
 
 
-.project-content {
-    display: flex;
-    align-items: flex-start; /* Aligns text and image to the top */
-    gap: 20px; /* Adds spacing between image and text */
-}
 
-.project-content figure {
-    flex: 1; /* Image area */
-    max-width: 50%; /* Limits image width */
-}
-
-.project-content img {
-    width: 100%; /* Ensures image scales to container */
-    height: auto;
-}
-
-.project-text {
-    flex: 2; /* Text area */
-    max-width: 50%;
-}
 
 header {
     text-align: center;
@@ -102,12 +83,3 @@ a:hover {
     }
 }
 
-@media (max-width: 768px) {
-    .project-content {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center;
-    }
-    .project-content figure, .project-text {
-        max-width: 100%; /* Full width for each element */
-    }
-}
