@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Fits well on laptop screens */
+    max-width: 1500px; /* Fits well on laptop screens */
     margin: 0 auto; /* Center content */
     padding: 20px; /* Adds padding around content */
 }
