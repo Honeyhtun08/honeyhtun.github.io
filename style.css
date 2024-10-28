@@ -87,3 +87,13 @@ a {
 a:hover {
     color: #005bb5;
 }
+
+@media (max-width: 768px) {
+    .project-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .project-content figure, .project-text {
+        max-width: 100%; /* Full width for each element */
+    }
+}
