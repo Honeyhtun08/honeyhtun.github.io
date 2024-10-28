@@ -10,6 +10,13 @@ body {
     color: #333;
 }
 
+.container {
+    max-width: 1200px; /* Fits well on laptop screens */
+    margin: 0 auto; /* Center content */
+    padding: 20px; /* Adds padding around content */
+}
+
+
 .project-content {
     display: flex;
     align-items: flex-start; /* Aligns text and image to the top */
@@ -86,6 +93,13 @@ a {
 
 a:hover {
     color: #005bb5;
+}
+
+
+@media (max-width: 1280px) {
+    .container {
+        padding: 15px;
+    }
 }
 
 @media (max-width: 768px) {
